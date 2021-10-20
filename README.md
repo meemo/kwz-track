@@ -1,5 +1,5 @@
 # kwz-audio
-Extracts nIMA ADPCM audio data from .kwz files. Also works with .gz compressed .kwz files.
+Extracts audio from .kwz files and writes it to a .wav file. Also works with .gz compressed .kwz files.
 
 
 # Requirements
