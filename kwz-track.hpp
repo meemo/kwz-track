@@ -82,7 +82,7 @@ typedef struct wav_header {
     u32 subchunk_1_size = 16;
     u16 audio_format = 1; // Audio format, 1=PCM
     u16 num_channels = 1; // Number of channels, 1=Mono
-    u32 sample_rate = 16384; // Sampling Frequency in Hz
+    u32 sample_rate = 16364; // Sampling Frequency in Hz
     u32 byte_rate = 32728; // sample rate * number of channels * bits per sample / 8
     u16 block_align = 2; // 2=16 bit mono
     u16 bits_per_sample = 16; // Bits per sample
