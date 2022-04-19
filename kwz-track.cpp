@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <iterator>
+#include <stdexcept>
 
 #include "kwz-track.hpp"
 
